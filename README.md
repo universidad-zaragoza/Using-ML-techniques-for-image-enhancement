@@ -1,6 +1,6 @@
-# Mejora de imágenes utilizando técnicas de aprendizaje automático
+# Uso de técnicas de aprendizaje automático para la mejora de imágenes.
 
-¡Bienvenido al repositorio "Using-Machine-Learning-techniques-for-image-enhancement"!
+¡Bienvenido al repositorio "Using Machine Learning techniques for image enhancement"!
 
 Este repositorio contiene una implementación de técnicas de aprendizaje automático para la mejora de imágenes. Está organizado en los siguientes directorios:
 
