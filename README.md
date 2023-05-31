@@ -4,7 +4,7 @@
 
 Este repositorio contiene una implementación de técnicas de aprendizaje automático para la mejora de imágenes. Está organizado en los siguientes directorios:
 
-## Dataset
+## Dataset :file_folder:
 El directorio "Dataset" contiene conjuntos de datos utilizados para el entrenamiento, validación y pruebas del modelo de mejora de imágenes. Internamente, se encuentran los siguientes directorios:
 
 - **Entrenamiento de alta resolución**: Contiene imágenes de alta resolución utilizadas para el entrenamiento del modelo.
@@ -16,13 +16,14 @@ El directorio "Dataset" contiene conjuntos de datos utilizados para el entrenami
 
 Además, en el directorio "Dataset" encontrarás un script llamado "ReescalaImagenes.py", que se utiliza para reducir las dimensiones de una imagen.
 
-## Resultados
-El directorio "Resultados" almacena los resultados obtenidos después de aplicar las técnicas de mejora de imágenes. Puedes explorar este directorio para ver los resultados generados y comparar las imágenes mejoradas con las originales.
-
-## SRGAN en Tensorflow
+## SRGAN en Tensorflow :gear:
 El directorio "SRGAN en Tensorflow" contiene la implementación del modelo SRGAN (Super-Resolution Generative Adversarial Network) utilizando la biblioteca de TensorFlow. Puedes explorar este directorio para ver el código fuente y los archivos relacionados con la implementación de SRGAN en TensorFlow.
 
-## SRGAN en PyTorch
+## SRGAN en PyTorch :gear:
 El directorio "SRGAN en PyTorch" contiene la implementación del modelo SRGAN utilizando la biblioteca de PyTorch. Puedes explorar este directorio para ver el código fuente y los archivos relacionados con la implementación de SRGAN en PyTorch.
 
+## Resultados :bar_chart:
+El directorio "Resultados" almacena los resultados obtenidos después de aplicar las técnicas de mejora de imágenes. Puedes explorar este directorio para ver los resultados generados y comparar las imágenes mejoradas con las originales.
+
+## 
 ¡Disfruta explorando este repositorio y experimentando con las técnicas de mejora de imágenes basadas en aprendizaje automático!
