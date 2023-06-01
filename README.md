@@ -11,8 +11,8 @@ El directorio "Dataset" contiene conjuntos de datos utilizados para el entrenami
 - [**Entrenamiento de baja resolución**](./Dataset/Chest_X-Ray_train_LR): Contiene las versiones de baja resolución correspondientes a las imágenes de entrenamiento de alta resolución.
 - [**Validación de alta resolución**](./Dataset/Chest_X-Ray_valid_HR): Contiene imágenes de alta resolución utilizadas para validar el rendimiento del modelo.
 - [**Validación de baja resolución**](./Dataset/Chest_X-Ray_valid_LR): Contiene las versiones de baja resolución correspondientes a las imágenes de validación de alta resolución.
-- [**Prueba de alta resolución**](./Dataset/Chest_X-Ray_test_HR): Contiene imágenes de alta resolución utilizadas para evaluar el modelo después del entrenamiento.
-- [**Prueba de baja resolución**](./Dataset/Chest_X-Ray_test_LR): Contiene las versiones de baja resolución correspondientes a las imágenes de prueba de alta resolución.
+- [**Test de alta resolución**](./Dataset/Chest_X-Ray_test_HR): Contiene imágenes de alta resolución utilizadas para evaluar el modelo después del entrenamiento.
+- [**Test de baja resolución**](./Dataset/Chest_X-Ray_test_LR): Contiene las versiones de baja resolución correspondientes a las imágenes de prueba de alta resolución.
 
 Además, en el directorio "Dataset" encontrarás un script llamado "[ReescalaImagenes.py](./Dataset/ReescalaImagenes.py)", que se utiliza para reducir las dimensiones de una imagen.
 
