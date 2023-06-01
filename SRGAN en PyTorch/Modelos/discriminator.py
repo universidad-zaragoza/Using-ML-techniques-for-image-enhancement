@@ -1,3 +1,8 @@
+"""
+Discriminador SRGAN
+Este archivo contiene la implementación de la red discriminadora (discriminador) para el modelo SRGAN (Super-Resolution Generative Adversarial Network).
+"""
+
 import torch
 import torch.nn as nn
 
@@ -33,4 +38,5 @@ class Discriminator(nn.Module):
         self.model = nn.Sequential(*layers)
 
     def forward(self, img):
+        # Paso hacia adelante del discriminador
         return self.model(img)
