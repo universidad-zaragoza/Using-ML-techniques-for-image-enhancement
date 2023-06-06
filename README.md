@@ -24,8 +24,15 @@ El directorio "SRGAN en Tensorflow" contiene la implementación del modelo SRGAN
 El directorio "SRGAN en PyTorch" contiene la implementación del modelo SRGAN utilizando la biblioteca de PyTorch. Puedes explorar este directorio para ver el código fuente y los archivos relacionados con la implementación de SRGAN en PyTorch.
 <br><br>En este caso, el código del que se ha partido para su implementación ha sido: https://github.com/eriklindernoren/PyTorch-GAN/tree/master/implementations/srgan.
 
+## [Test](./Test) :heavy_check_mark:
+El directorio "test" contiene los archivos y scripts necesarios para realizar pruebas o tests en la de la implementación de las redes SRGAN en TensorFlow y PyTorch.
+- [**Fichero "test.py" en Tensorflow**](Test/Test_Tensorflow/test.py): Este archivo es un script que carga los pesos del generador previamente entrenado en Tensorflow. Luego, utiliza el generador para procesar una imagen de baja resolución y generar una imagen en superresolución.
+    - [**Resultados**](Test/Test_Tensorflow/TestImages/results/): Este subdirectorio contiene los resultados de las pruebas o tests realizados. Después de ejecutar el script de prueba, las imágenes generadas en superresolución en Tensorflow se guardarán en esta carpeta.
+- [**Fichero "test.py" en PyTorch**](Test/Test_PyTorch/test.py): Este archivo es un script que carga los pesos del generador previamente entrenado en PyTorch. Luego, utiliza el generador para procesar una imagen de baja resolución y generar una imagen en superresolución.
+    - [**Resultados**](Test/Test_PyTorch/TestImages/results/): Este subdirectorio contiene los resultados de las pruebas o tests realizados. Después de ejecutar el script de prueba, las imágenes generadas en superresolución en PyTorch se guardarán en esta carpeta.
+
 ## [Resultados](./Resultados) :bar_chart:
-El directorio "Resultados" almacena los resultados obtenidos después de aplicar las técnicas de mejora de imágenes. Puedes explorar este directorio para ver los resultados generados y comparar las imágenes mejoradas con las originales.
+El directorio "Resultados" almacena los resultados obtenidos en el entrenamiento de las redes SRGAN de Tensorflow y PyTorch.Puedes explorar este directorio para ver los resultados generados y comparar las imágenes mejoradas con las originales.
 
 ## 
 ¡Disfruta explorando este repositorio y experimentando con las técnicas de mejora de imágenes basadas en aprendizaje automático!
