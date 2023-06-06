@@ -1,5 +1,17 @@
+# coding=utf-8
+# dataset_loader.py
+# ---------
+# Licensing Information:  You are free to use or extend these projects for
+# educational purposes provided that (1) you do not distribute or publish
+# solutions, (2) you retain this notice, and (3) you provide clear
+# attribution to UC Berkeley, including a link to http://ai.berkeley.edu and Pablo Doñate.
+#
+# Using Machine Learning techniques for image enhancement.
+# This file has been created by jlaihong and modified by Pablo Doñate Navarro (800710@unizar.es).
+
 """
-Archivo de carga del conjunto de datos.
+    Este archivo define funciones para crear y cargar datasets de 
+    imágenes de baja y alta resolución para la red SRGAN.
 """
 
 import os

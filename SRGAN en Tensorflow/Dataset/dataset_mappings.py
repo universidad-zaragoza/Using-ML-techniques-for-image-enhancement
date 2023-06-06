@@ -1,6 +1,17 @@
+# coding=utf-8
+# dataset_mappings.py
+# ---------
+# Licensing Information:  You are free to use or extend these projects for
+# educational purposes provided that (1) you do not distribute or publish
+# solutions, (2) you retain this notice, and (3) you provide clear
+# attribution to UC Berkeley, including a link to http://ai.berkeley.edu and Pablo Doñate.
+#
+# Using Machine Learning techniques for image enhancement.
+# This file has been created by jlaihong and modified by Pablo Doñate Navarro (800710@unizar.es).
+
 """
-Mapea cada imagen del dataset con crops de 48 x 48 para las imágenes de alta resolución
-y crops de 12 x 12 para las imágenes de baja resolución.
+    Este archivo define funciones para aplicar transformaciones de mapeo a las imágenes de los datasets.
+    Las transformaciones incluyen recortes aleatorios, giros aleatorios y rotaciones aleatorias.
 """
 
 import tensorflow as tf
@@ -24,9 +35,7 @@ def random_crop(lr_img, hr_img, hr_crop_size, scale):
 
     return lr_crop, hr_crop
 
-""" 
-Realiza giros en las imágenes de forma aleatoria. 
-"""
+
 def random_flip(lr_img, hr_img):
     # Se calcula la probabilidad de giro
     flip_chance = tf.random.uniform(shape=(), maxval=1)  # Valores con decimales entre 0 y 1.
@@ -36,9 +45,7 @@ def random_flip(lr_img, hr_img):
                    lambda: (tf.image.flip_left_right(lr_img),  # En caso contrario, se gira la imagen horizontalmente (de izq. a dcha.).
                             tf.image.flip_left_right(hr_img)))
 
-"""
-Realiza una rotación en las imágenes de forma aleatoria.
-"""
+
 def random_rotate(lr_img, hr_img):
     # Se determina el número de rotaciones de 90 grados (entre 0 y 4).
     rotate_option = tf.random.uniform(shape=(), maxval=4, dtype=tf.int32)

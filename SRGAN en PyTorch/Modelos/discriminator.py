@@ -1,7 +1,13 @@
-"""
-Discriminador SRGAN
-Este archivo contiene la implementación de la red discriminadora (discriminador) para el modelo SRGAN (Super-Resolution Generative Adversarial Network).
-"""
+# coding=utf-8
+# discriminator.py
+# ---------
+# Licensing Information:  You are free to use or extend these projects for
+# educational purposes provided that (1) you do not distribute or publish
+# solutions, (2) you retain this notice, and (3) you provide clear
+# attribution to UC Berkeley, including a link to http://ai.berkeley.edu and Pablo Doñate.
+#
+# Using Machine Learning techniques for image enhancement.
+# This file has been created by jlaihong and modified by Pablo Doñate Navarro (800710@unizar.es).
 
 import torch
 import torch.nn as nn
@@ -38,5 +44,4 @@ class Discriminator(nn.Module):
         self.model = nn.Sequential(*layers)
 
     def forward(self, img):
-        # Paso hacia adelante del discriminador
         return self.model(img)
