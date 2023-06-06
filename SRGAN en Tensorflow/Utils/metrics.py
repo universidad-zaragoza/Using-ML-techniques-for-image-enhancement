@@ -9,9 +9,13 @@
 # Using Machine Learning techniques for image enhancement.
 # This file has been created by Pablo Doñate Navarro (800710@unizar.es).
 
+"""
+    Fichero que define las métricas de validación. 
+    En este caso, se define el error cuadrático medio entre dos imágenes.
+"""
+
 from math import sqrt
 
-""" Determina el error cuadrático medio entre dos imágenes. """
 def rmse_metric(predicted, actual):
     suma = 0.0
 
