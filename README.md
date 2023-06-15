@@ -32,7 +32,7 @@ El directorio "test" contiene los archivos y scripts necesarios para realizar pr
     - [**Resultados**](Test/Test_PyTorch/TestImages/results/): Este subdirectorio contiene los resultados de las pruebas o tests realizados. Después de ejecutar el script de prueba, las imágenes generadas en superresolución en PyTorch se guardarán en esta carpeta.
 
 ## [Resultados](./Resultados) :bar_chart:
-El directorio "Resultados" almacena los resultados obtenidos en el entrenamiento de las redes SRGAN de Tensorflow y PyTorch.Puedes explorar este directorio para ver los resultados generados y comparar las imágenes mejoradas con las originales.
+El directorio "Resultados" almacena los resultados obtenidos en el entrenamiento de las redes SRGAN de Tensorflow y PyTorch. Puedes explorar este directorio para ver los resultados generados y comparar las imágenes mejoradas con las originales.
 
 ## 
 ¡Disfruta explorando este repositorio y experimentando con las técnicas de mejora de imágenes basadas en aprendizaje automático!
